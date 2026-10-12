@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Adventure Escape SA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-top">ADVENTURE</span>
+        <span class="logo-main">ESCAPE SA</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="packages.html">Packages</a>
+        <a href="activities.html">Activities</a>
+        <a href="fees.html">Fees</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <a href="contact.html" class="btn btn-primary btn-book">Book now</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <h1>Book your adventure</h1>
+      <p>Tell us what you’re looking for and we’ll get back to you within one working day with availability and next steps.</p>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Get in touch</h2>
+          <p>Prefer to talk? Reach us on any of the channels below. We’re based in the Western Cape and operate daily (weather permitting).</p>
+
+          <div class="contact-detail">
+            <div class="icon">📧</div>
+            <div>
+              <strong>Email</strong>
+              <span>hello@adventureescapesa.co.za</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="icon">📱</div>
+            <div>
+              <strong>WhatsApp / Phone</strong>
+              <span>+27 82 000 0000</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="icon">📍</div>
+            <div>
+              <strong>Base</strong>
+              <span>Stellenbosch, Western Cape, South Africa</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="icon">🕐</div>
+            <div>
+              <strong>Hours</strong>
+              <span>Mon–Sun · 07:00 – 18:00</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-card">
+          <form action="#" method="post" onsubmit="event.preventDefault(); alert('Thanks! This is a demo form — in a live site your booking request would be sent.');">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="name" required placeholder="Your name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="you@example.com" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone / WhatsApp</label>
+                <input type="tel" id="phone" name="phone" placeholder="+27 ..." />
+              </div>
+              <div class="form-group">
+                <label for="activity">Preferred activity</label>
+                <select id="activity" name="activity">
+                  <option value="">Select one</option>
+                  <option>Ziplining</option>
+                  <option>Kayaking</option>
+                  <option>Rock climbing</option>
+                  <option>Cape Explorer (2 activities)</option>
+                  <option>Weekend Escape</option>
+                  <option>Group / Corporate</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="date">Preferred date</label>
+              <input type="date" id="date" name="date" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Group size, experience level, special requests..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-md" style="width:100%;">Send booking request</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <strong>ADVENTURE ESCAPE SA</strong>
+        <span>Explore the Western Cape • Founded 2024</span>
+      </div>
+      <span class="footer-page">06 / 06</span>
+    </div>
+  </footer>
+</body>
+</html>
